@@ -5,7 +5,8 @@ prenoms_dpt <-
     n = nombre,
     sex = sexe,
     year = annais,
-    name = preusuel
+    name = preusuel,
+    dpt_num = dpt
   ) %>%
   filter(
     !is.na(year),
@@ -16,11 +17,9 @@ prenoms_dpt <-
     n = as.integer(n),
     sex = if_else(sex == 1, "M", "F")
   ) %>%
-  select(year, name, sex, dpt, n) %>%
-  group_by(year, sex, dpt) %>%
-  mutate(prop = n / sum(n)) %>%
-  ungroup() %>%
-  arrange(year, sex, name, dpt)
+  left_join(read_csv("data-raw/tools/corresp_dpt.csv")) %>%
+  arrange(year, sex, name, dpt_num) %>%
+  select(year, name, sex, dpt_num, dpt_name, n)
 
 
 save(prenoms_dpt, file = "data/prenoms_dpt.rda", compress = "xz")

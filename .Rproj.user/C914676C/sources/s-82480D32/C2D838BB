@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2984393516",
+    "hash" : "663623494",
     "id" : "C2D838BB",
-    "lastKnownWriteTime" : 1584723423,
-    "last_content_update" : 1584723423664,
+    "lastKnownWriteTime" : 1584726663,
+    "last_content_update" : 1584726663095,
     "path" : "~/Data_Science/R_stuffs/prenomsFR/README.Rmd",
     "project_path" : "README.Rmd",
     "properties" : {
-        "cursorPosition" : "13,0",
+        "cursorPosition" : "12,9",
         "scrollLine" : "2",
         "tempName" : "Untitled1"
     },

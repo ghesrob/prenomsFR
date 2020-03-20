@@ -3,9 +3,9 @@ prenomsFR
 
 ## Description
 
-Un package R contenant deux jeux de données sur les prénoms Français, et
-une fonction permettant d’inférer sur le sexe d’un individu à partir de
-son prénom.
+Un petit package R contenant deux jeux de données sur les prénoms
+Français, et une fonction permettant d’inférer sur le sexe d’un
+individu à partir de son prénom.
 
 ## Installation
 
@@ -22,14 +22,20 @@ Ce package contient les deux jeux de données suivants :
 
 <li>
 
-`prenoms_nat` :
+`prenoms_nat` : Donnees sur les prenoms données aux nouveaux nés en
+France entre 1900 et 2018
 
 </li>
 
 <li>
 
-`prenoms_dpt` :
+`prenoms_dpt` : Comme ci-dessus, mais avec des données ventilées au
+niveau départemental
 
 </li>
 
 </ul>
+
+Il contient par ailleurs la fonction `estim_sex` qui permet d’inférer
+sur le sexe d’un individu à partir de son prénom et, optionellement, de
+sa date de naissance.
