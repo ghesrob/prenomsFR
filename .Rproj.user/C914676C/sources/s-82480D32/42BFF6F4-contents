@@ -14,7 +14,7 @@
 #'
 estim_sex <- function(name, birth_year = NULL, age = NULL, birth_date = NULL){
 
-  first_name = name # Todo : Comprendre pourquoi utiliser directement name pose probleme au niveau du filter plus bas
+  first_name = stringr::str_to_title(name) # Todo : Comprendre pourquoi utiliser directement name pose probleme au niveau du filter plus bas
   ref_year <- 1900:2018
 
   if (!missing(birth_year)) {

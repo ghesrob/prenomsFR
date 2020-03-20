@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1874537785",
+    "hash" : "2752767145",
     "id" : "42BFF6F4",
-    "lastKnownWriteTime" : 1584729739,
-    "last_content_update" : 1584729739739,
+    "lastKnownWriteTime" : 1584729912,
+    "last_content_update" : 1584729912364,
     "path" : "~/Data_Science/R_stuffs/prenomsFR/R/estim_sex.R",
     "project_path" : "R/estim_sex.R",
     "properties" : {
-        "cursorPosition" : "5,29",
+        "cursorPosition" : "20,26",
         "scrollLine" : "0"
     },
     "read_only" : false,

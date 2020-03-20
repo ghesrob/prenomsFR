@@ -12,7 +12,7 @@ prenoms_nat <-
     name != "_PRENOMS_RARES"
   ) %>%
   mutate(
-    name = str_to_title(name),
+    name = stringr::str_to_title(name),
     n = as.integer(n),
     sex = if_else(sex == 1, "M", "F")
   ) %>%
