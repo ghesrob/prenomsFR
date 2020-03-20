@@ -22,7 +22,7 @@ Ce package contient les deux jeux de données suivants :
 
 <li>
 
-`prenoms_nat` : Donnees sur les prenoms données aux nouveaux nés en
+`prenoms_nat` : Données sur les prenoms attribués aux nouveaux nés en
 France entre 1900 et 2018
 
 </li>
@@ -38,4 +38,4 @@ niveau départemental
 
 Il contient par ailleurs la fonction `estim_sex` qui permet d’inférer
 sur le sexe d’un individu à partir de son prénom et, optionellement, de
-sa date de naissance.
+sa date de naissance ou de son âge.
