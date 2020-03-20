@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1584718186482.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3269279362",
+    "id" : "9CB677D0",
+    "lastKnownWriteTime" : 1584718684,
+    "last_content_update" : 1584718684688,
+    "path" : "~/Data_Science/R_stuffs/prenomsFr/data-raw/nat2018.R",
+    "project_path" : "data-raw/nat2018.R",
+    "properties" : {
+        "cursorPosition" : "27,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

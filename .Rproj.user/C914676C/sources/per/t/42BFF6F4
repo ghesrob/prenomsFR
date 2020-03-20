@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1584721902983.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "808102403",
+    "id" : "42BFF6F4",
+    "lastKnownWriteTime" : 1584721956,
+    "last_content_update" : 1584721956615,
+    "path" : "~/Data_Science/R_stuffs/prenomsFr/R/get_sex.R",
+    "project_path" : "R/get_sex.R",
+    "properties" : {
+        "cursorPosition" : "6,11",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
