@@ -2,17 +2,11 @@ Package: prenomsFr
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-<<<<<<< HEAD
-Author: ghesrob
-Maintainer: ghesrob
-Description: Un petit package R contenant deux jeux de données sur les prénoms Français, et une fonction permettant d'inférer sur le sexe d'un individu à partir de son prénom.
-=======
 Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
->>>>>>> parent of 3a351a6... Update DESCRIPTION
 Encoding: UTF-8
 LazyData: true
 Imports: 

@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "3838066523",
     "id" : "20FF09A1",
-    "lastKnownWriteTime" : 1584731445,
-    "last_content_update" : 1584731445,
+    "lastKnownWriteTime" : 1584731547,
+    "last_content_update" : 1584731547304,
     "path" : "~/Data_Science/R_stuffs/prenomsFR/DESCRIPTION",
     "project_path" : "DESCRIPTION",
     "properties" : {
-        "cursorPosition" : "12,12",
+        "cursorPosition" : "15,12",
         "scrollLine" : "0"
     },
     "read_only" : false,
