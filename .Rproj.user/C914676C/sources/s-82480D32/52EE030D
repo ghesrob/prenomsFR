@@ -5,11 +5,11 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3031096471",
+    "hash" : "0",
     "id" : "52EE030D",
     "lastKnownWriteTime" : 1584720104,
     "last_content_update" : 1584720104174,
-    "path" : "~/Data_Science/R_stuffs/prenomsFr/R/prenoms_nat.R",
+    "path" : "~/Data_Science/R_stuffs/prenomsFR/R/prenoms_nat.R",
     "project_path" : "R/prenoms_nat.R",
     "properties" : {
         "cursorPosition" : "15,0",

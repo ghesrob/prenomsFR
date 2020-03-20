@@ -5,11 +5,11 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3269279362",
+    "hash" : "0",
     "id" : "9CB677D0",
     "lastKnownWriteTime" : 1584718684,
     "last_content_update" : 1584718684688,
-    "path" : "~/Data_Science/R_stuffs/prenomsFr/data-raw/nat2018.R",
+    "path" : "~/Data_Science/R_stuffs/prenomsFR/data-raw/nat2018.R",
     "project_path" : "data-raw/nat2018.R",
     "properties" : {
         "cursorPosition" : "27,0",

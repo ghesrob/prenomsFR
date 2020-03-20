@@ -5,11 +5,11 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "808102403",
+    "hash" : "0",
     "id" : "42BFF6F4",
     "lastKnownWriteTime" : 1584721956,
     "last_content_update" : 1584721956615,
-    "path" : "~/Data_Science/R_stuffs/prenomsFr/R/get_sex.R",
+    "path" : "~/Data_Science/R_stuffs/prenomsFR/R/get_sex.R",
     "project_path" : "R/get_sex.R",
     "properties" : {
         "cursorPosition" : "6,11",
