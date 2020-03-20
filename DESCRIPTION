@@ -12,10 +12,6 @@ LazyData: true
 Imports: 
     dplyr,
     tibble,
-    forcats,
-    purrr,
-    tidyr,
-    ggplot2,
     readr,
     stringr,
     lubridate
