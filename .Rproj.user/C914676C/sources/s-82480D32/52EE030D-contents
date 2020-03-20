@@ -8,7 +8,7 @@
 #'   \item{\code{sex} : sexe, M ou F}
 #'   \item{\code{name} : prenom}
 #'   \item{\code{n} : nombre de nouveaux nes}
-#'   \item{\code{prop} : proportion de nouveaux nes portant ce prenom l'annee en question}
+#'   \item{\code{prop} : proportion de nouveaux nes de ce sexe portant ce prenom cette annee}
 #' }
 #' @name prenoms_nat
 #' @source \url{https://www.insee.fr/fr/statistiques/2540004}

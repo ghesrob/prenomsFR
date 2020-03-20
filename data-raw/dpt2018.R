@@ -17,10 +17,10 @@ prenoms_dpt <-
     sex = if_else(sex == 1, "M", "F")
   ) %>%
   select(year, name, sex, dpt, n) %>%
-  #group_by(year, sex) %>%
-  #mutate(prop = n / sum(n)) %>%
-  #ungroup() %>%
-  arrange(year, sex, name)
+  group_by(year, sex, dpt) %>%
+  mutate(prop = n / sum(n)) %>%
+  ungroup() %>%
+  arrange(year, sex, name, dpt)
 
 
 save(prenoms_dpt, file = "data/prenoms_dpt.rda", compress = "xz")

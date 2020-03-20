@@ -1,5 +1,5 @@
 ---
-title: "README"
+title: "prenomsFR"
 output: github_document
 ---
 
@@ -7,8 +7,26 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# prenomsFR
 
 ## Description
 
 Un package R contenant deux jeux de données sur les prénoms Français, et une fonction permettant d'inférer sur le sexe d'un individu à partir de son prénom.
+
+
+## Installation
+
+```{r, eval = FALSE}
+# Installation depuis github avec le package devtools
+devtools::install_github("ghesrob/prenomsFR")
+```
+
+## Contenu
+
+Ce package contient les deux jeux de données suivants : 
+<ul>
+<li>`prenoms_nat` : </li>
+<li>`prenoms_dpt` : Comme ci-dessus, mais avec des données ventilées au niveau départemental.</li>
+</ul>
+
+Il contient par ailleurs la fonction `estim_sex` qui permet d'inférer sur le sexe d'un individu 
+à partir de son prénom et optionellement de sa date de naissance.

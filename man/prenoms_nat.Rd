@@ -3,7 +3,7 @@
 \docType{data}
 \name{prenoms_nat}
 \alias{prenoms_nat}
-\title{Prenoms des Bebes Français 1900-2018}
+\title{Prenoms des Bebes Francais 1900-2018 National}
 \format{Un data frame avec 601 223 lignes et 5 colonnes :
 \itemize{
   \item{\code{year} : annee (1900-2018)}
@@ -19,6 +19,6 @@
 prenoms_nat
 }
 \description{
-Prenoms des nouveaux nes Français entre 1900 et 2018, au niveau national.
+Prenoms des nouveaux nes Francais entre 1900 et 2018, au niveau national.
 }
 \keyword{datasets}

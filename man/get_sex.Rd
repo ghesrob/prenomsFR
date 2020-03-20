@@ -7,13 +7,13 @@
 get_sex(name, birth_date = NULL, birth_year = NULL, age = NULL)
 }
 \arguments{
-\item{name}{Un prenom. Non sensible a la casse sur les majuscules.}
+\item{name}{Un prenom. Non sensible a la casse.}
 
 \item{birth_date}{Date de naissance, au format Date.}
 
-\item{age}{Age en années.}
+\item{birth_year}{Annee de naissance.}
 
-\item{birth_date}{Annee de naissance.}
+\item{age}{Age en annees.}
 }
 \value{
 Le sexe estime de l'individu, 'F' ou 'M'.
@@ -23,7 +23,7 @@ Determine le sexe d'un individu
 }
 \details{
 Renseigner aucun ou un seul des trois arguments relatifs a la date de naissance.
-Si aucun n'est renseigne, le sexe est determine sur la periode 1900-2017 entiere.
+Si aucun n'est renseigne, le sexe est determine sur la periode 1900-2018.
 }
 \examples{
 get_sex('Robin', birth_year = 1995)

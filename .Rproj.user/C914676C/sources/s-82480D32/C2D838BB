@@ -5,21 +5,21 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "2984393516",
     "id" : "C2D838BB",
-    "lastKnownWriteTime" : 1584722631,
-    "last_content_update" : 1584722631969,
+    "lastKnownWriteTime" : 1584723423,
+    "last_content_update" : 1584723423664,
     "path" : "~/Data_Science/R_stuffs/prenomsFR/README.Rmd",
     "project_path" : "README.Rmd",
     "properties" : {
-        "cursorPosition" : "14,0",
-        "scrollLine" : "0",
+        "cursorPosition" : "13,0",
+        "scrollLine" : "2",
         "tempName" : "Untitled1"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 6,
+    "relative_order" : 1,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_markdown"
