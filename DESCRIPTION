@@ -1,11 +1,10 @@
-Package: prenomsFr
+﻿Package: prenomsFr
 Type: Package
 Title: Prenoms des Bebes Francais 1900-2018
 Version: 0.1.0
 Author: ghesrob
 Maintainer: ghesrob
-Description: Un petit package R contenant deux jeux de données sur les prénoms Français,
-et une fonction permettant d'inférer sur le sexe d'un individu à partir de son prénom.
+Description: Un petit package R contenant deux jeux de données sur les prénoms Français, et une fonction permettant d'inférer sur le sexe d'un individu à partir de son prénom.
 Encoding: UTF-8
 LazyData: true
 Imports: 
