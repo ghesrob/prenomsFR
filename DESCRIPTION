@@ -3,7 +3,7 @@ Type: Package
 Title: Prenoms Français (1900-2018)
 Version: 0.1.0
 Author: ghesrob
-Maintainer: ghesrob
+Maintainer: Robin Ghesquier <robin.ghesquier@gmail.com>
 Description: Contient deux datasets sur les prenoms des nouveaux nés Français de 1900 à 2018.
     Contient également une fonction d'inférence de sexe.
 License: CC0
