@@ -1,13 +1,13 @@
-#' Determine le sexe d'un individu
+#' Estime le sexe d'un individu à partir de son prénom et option
 #'
-#' @param name Un prenom. Non sensible a la casse.
+#' @param name Un prénom.
 #' @param birth_date Date de naissance, au format Date.
-#' @param birth_year Annee de naissance.
+#' @param birth_year Année de naissance.
 #' @param age Age, en annees.
 #' @details
-#' Renseigner aucun ou un seul des trois arguments relatifs a la date de naissance.
-#' Si aucun n'est renseigne, le sexe est determine sur la periode 1900-2018.
-#' @return Le sexe estime de l'individu, 'F' ou 'M'.
+#' Renseigner aucun ou un seul des trois arguments relatifs à la date de naissance.
+#' Si aucun n'est renseigné, le sexe est determiné sur la periode 1900-2018.
+#' @return Le sexe estimé de l'individu (F/M).
 #' @examples
 #' estim_sex('Robin', birth_year = 1995)
 #' estim_sex('JEAN-JACQUES', age = 59)
