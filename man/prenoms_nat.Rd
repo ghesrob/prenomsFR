@@ -4,14 +4,16 @@
 \name{prenoms_nat}
 \alias{prenoms_nat}
 \title{Prenoms des Bebes Francais 1900-2018 National}
-\format{Un data frame avec 601 223 lignes et 5 colonnes :
+\format{
+Un data frame avec 601 223 lignes et 5 colonnes :
 \itemize{
-  \item{\code{year} : annee (1900-2018)}
-  \item{\code{name} : prenom}
-  \item{\code{sex} : sexe, M ou F}
-  \item{\code{n} : nombre de nouveaux nes}
-  \item{\code{prop} : proportion de nouveaux nes de ce sexe portant ce prenom cette annee}
-}}
+  \item{\code{year} : année (1900-2018)}
+  \item{\code{name} : prénom}
+  \item{\code{sex} : sexe (M/F)}
+  \item{\code{n} : nombre de nouveaux nés}
+  \item{\code{prop} : proportion de nouveaux nés de ce sexe portants ce prénom cette année}
+}
+}
 \source{
 \url{https://www.insee.fr/fr/statistiques/2540004}
 }
@@ -19,6 +21,6 @@
 prenoms_nat
 }
 \description{
-Prenoms des nouveaux nes Francais entre 1900 et 2018, au niveau national.
+Prénoms des nouveaux nés Français entre 1900 et 2018, au niveau national.
 }
 \keyword{datasets}

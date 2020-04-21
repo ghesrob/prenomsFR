@@ -4,16 +4,18 @@
 \name{prenoms_dpt}
 \alias{prenoms_dpt}
 \title{Prenoms des Bebes Francais 1900-2018 Departemental}
-\format{Un data frame avec 3 567 753 lignes et 6 colonnes :
+\format{
+Un data frame avec 3 567 753 lignes et 6 colonnes :
 \itemize{
-  \item{\code{year} : annee (1900-2018)}
-  \item{\code{name} : prenom}
-  \item{\code{sex} : sexe, M ou F}
-  \item{\code{dpt_num} : numero de departement}
-  \item{\code{dpt_name} : nom de departement}
-  \item{\code{n} : nombre de nouveaux nes}
+  \item{\code{year} : année (1900-2018)}
+  \item{\code{name} : prénom}
+  \item{\code{sex} : sexe (M/F)}
+  \item{\code{dpt_num} : numéro du département}
+  \item{\code{dpt_name} : nom du département}
+  \item{\code{n} : nombre de nouveaux nés}
 
-}}
+}
+}
 \source{
 \url{https://www.insee.fr/fr/statistiques/2540004}
 }
@@ -21,6 +23,6 @@
 prenoms_dpt
 }
 \description{
-Prenoms des nouveaux nes Francais entre 1900 et 2018, au niveau departemental.
+Prénoms des nouveaux nés Français entre 1900 et 2018, au niveau départemental.
 }
 \keyword{datasets}

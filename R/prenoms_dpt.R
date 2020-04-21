@@ -1,4 +1,4 @@
-#' Prénoms des Bébés Français 1900-2018 Départemental
+#' Prenoms des Bebes Francais 1900-2018 Departemental
 #'
 #' Prénoms des nouveaux nés Français entre 1900 et 2018, au niveau départemental.
 #'

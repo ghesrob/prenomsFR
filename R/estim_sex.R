@@ -1,5 +1,6 @@
-#' Estime le sexe d'un individu à partir de son prénom et option
+#' Estime le sexe d'un individu
 #'
+#' Estime le sexe d'un individu a partir de son prénom et, optionellement, de sa date de naissance ou de son âge.
 #' @param name Un prénom.
 #' @param birth_date Date de naissance, au format Date.
 #' @param birth_year Année de naissance.
@@ -9,7 +10,7 @@
 #' Si aucun n'est renseigné, le sexe est determiné sur la periode 1900-2018.
 #' @return Le sexe estimé de l'individu (F/M).
 #' @examples
-#' estim_sex('Robin', birth_year = 1995)
+#' estim_sex('Julie', birth_year = 1992)
 #' estim_sex('JEAN-JACQUES', age = 59)
 #'
 estim_sex <- function(name, birth_year = NULL, age = NULL, birth_date = NULL){

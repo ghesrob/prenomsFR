@@ -1,4 +1,4 @@
-#' Prénoms des Bébés Francais 1900-2018 National
+#' Prenoms des Bebes Francais 1900-2018 National
 #'
 #' Prénoms des nouveaux nés Français entre 1900 et 2018, au niveau national.
 #'

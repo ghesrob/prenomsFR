@@ -2,31 +2,31 @@
 % Please edit documentation in R/estim_sex.R
 \name{estim_sex}
 \alias{estim_sex}
-\title{Determine le sexe d'un individu}
+\title{Estime le sexe d'un individu}
 \usage{
 estim_sex(name, birth_year = NULL, age = NULL, birth_date = NULL)
 }
 \arguments{
-\item{name}{Un prenom. Non sensible a la casse.}
+\item{name}{Un prénom.}
 
-\item{birth_year}{Annee de naissance.}
+\item{birth_year}{Année de naissance.}
 
 \item{age}{Age, en annees.}
 
 \item{birth_date}{Date de naissance, au format Date.}
 }
 \value{
-Le sexe estime de l'individu, 'F' ou 'M'.
+Le sexe estimé de l'individu (F/M).
 }
 \description{
-Determine le sexe d'un individu
+Estime le sexe d'un individu a partir de son prénom et, optionellement, de sa date de naissance ou de son âge.
 }
 \details{
-Renseigner aucun ou un seul des trois arguments relatifs a la date de naissance.
-Si aucun n'est renseigne, le sexe est determine sur la periode 1900-2018.
+Renseigner aucun ou un seul des trois arguments relatifs à la date de naissance.
+Si aucun n'est renseigné, le sexe est determiné sur la periode 1900-2018.
 }
 \examples{
-estim_sex('Robin', birth_year = 1995)
+estim_sex('Julie', birth_year = 1992)
 estim_sex('JEAN-JACQUES', age = 59)
 
 }
