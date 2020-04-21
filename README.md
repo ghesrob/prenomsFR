@@ -12,6 +12,7 @@ individu à partir de son prénom.
 ``` r
 # Installation depuis github avec le package devtools
 devtools::install_github("ghesrob/prenomsFR")
+library(prenomsFR)
 ```
 
 ## Contenu

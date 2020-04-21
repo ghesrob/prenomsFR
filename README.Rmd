@@ -18,6 +18,7 @@ Un petit package R contenant deux jeux de données sur les prénoms Français, e
 ```{r, eval = FALSE}
 # Installation depuis github avec le package devtools
 devtools::install_github("ghesrob/prenomsFR")
+library(prenomsFR)
 ```
 
 ## Contenu
